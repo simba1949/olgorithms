@@ -22,6 +22,10 @@ public class BubbleSort {
 		}
 	}
 
+	/**
+	 * 冒泡算法的实现
+	 * @param arr
+	 */
 	public static void bubbleSortImp(int[] arr){
 		if (null == arr || arr.length <= 1){
 			return;
